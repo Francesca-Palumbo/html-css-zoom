@@ -44,11 +44,6 @@ main {
     position: relative;
 }
 
-.bono-centro{
-
-    background-size: 20px 20px;
-}
-
 .nome {
     position: absolute;
     bottom: 0;
@@ -60,59 +55,41 @@ main {
     white-space: nowrap;
     overflow: hidden;
     max-width: 80%;
-
 }
 
 footer{
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
-.fas .fa-microphone .fa-3x{
-    font-size: 15px;
-}
-
-.fas .fa-angle-up .fa-2x{
-    font-size: 2em;
-}
-
-.fas .fa-video .fa-3x{
-    font-size: 2em;
-}
-
-.fas .fa-angle-up .fa-2x{
-    font-size: 2em;
-}
-
-.footer-left{
-    width: 200px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.footer-left i {
+footer i{
     color: white;
 }
 
-.footer-center{
-    background-color:black;
-    width: 1200px;
-    flex-grow: 1;
+.footer-left{
+    width: 10%;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
 }
 
-.img-alt{
-    max-width: 30px;
-    vertical-align: middle;
+.footer-left i{
+    font-size: 20px;
+}
+
+#microphone{
+    padding-left: 6px;
+}
+
+#mute{
+    font-size:10px;
+    color: white;
 }
 
 .footer-right{
-    width: 150px;
+    width: 10%;
     flex-shrink: 0;
 }
 
